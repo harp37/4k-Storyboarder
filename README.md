@@ -1,6 +1,5 @@
 **Introducing 4k Storyboarder, Your New Favorite 4K Vector Animation App**
-_A hand-drawn style vector animation tool for creating high-quality 4K animations with an intuitive interface. Draw frame-by-frame animations with vector paths and export them as SVG files.
-_
+A hand-drawn style vector animation tool for creating high-quality 4K animations with an intuitive interface. Draw frame-by-frame animations with vector paths and export them as SVG files.
 
 Features
 4K Canvas Resolution - Create animations at 3840×2160 pixels for professional-quality vector graphics
