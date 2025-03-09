@@ -1,4 +1,4 @@
-# 4K Vector Animation App
+# 4K Storyboarder
 
 A hand-drawn style vector animation tool for creating high-quality 4K animations with an intuitive interface. Draw frame-by-frame animations with vector paths and export them as SVG files.
 
