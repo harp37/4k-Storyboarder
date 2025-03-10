@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <!-- Sky background -->
+  <rect x="0" y="0" width="3840" height="1200" fill="#87CEEB" />
+  
+  <!-- Sun -->
+  <circle cx="1400" cy="300" r="150" fill="#FFD700" stroke="#FF8C00" stroke-width="10" />
+  <path d="M 1400 120 L 1400 50" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1400 550 L 1400 480" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1220 300 L 1150 300" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1650 300 L 1580 300" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1280 180 L 1230 130" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1570 470 L 1520 420" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1280 420 L 1230 470" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  <path d="M 1570 180 L 1520 130" stroke="#FF8C00" stroke-width="10" stroke-linecap="round" />
+  
+  <!-- Ground/Soil -->
+  <rect x="0" y="1200" width="3840" height="960" fill="#8B4513" />
+  <path d="M 0 1200 C 300 1150, 600 1250, 900 1190 C 1200 1130, 1500 1220, 1800 1170 C 2100 1120, 2400 1210, 2700 1160 C 3000 1110, 3300 1200, 3600 1150 L 3840 1200" fill="#A0522D" />
+  
+  <!-- Mature stem with more bend from flower weight -->
+  <path d="M 1920 1400 C 1925 1300, 1925 1200, 1930 1100 C 1935 1000, 1940 900, 1930 800 C 1920 700, 1900 600, 1870 500 C 1850 400, 1830 300, 1800 230" stroke="#228B22" stroke-width="30" fill="none" />
+  
+  <!-- Full-size leaves with slight wilting on lower leaves -->
+  <path d="M 1925 1200 C 1780 1120, 1650 1090, 1540 1120" stroke="#228B22" stroke-width="20" fill="none" />
+  <path d="M 1915 1200 C 2060 1120, 2190 1090, 2300 1120" stroke="#228B22" stroke-width="20" fill="none" />
+  
+  <!-- Vein details on leaves -->
+  <path d="M 1780 1120 C 1720 1100, 1660 1090, 1600 1120" stroke="#006400" stroke-width="8" fill="none" />
+  <path d="M 2060 1120 C 2120 1100, 2180 1090, 2240 1120" stroke="#006400" stroke-width="8" fill="none" />
+  
+  <!-- Second pair of leaves -->
+  <path d="M 1930 950 C 1800 900, 1680 880, 1600 920" stroke="#228B22" stroke-width="20" fill="none" />
+  <path d="M 1910 950 C 2040 900, 2160 880, 2240 920" stroke="#228B22" stroke-width="20" fill="none" />
+  
+  <!-- Third pair of leaves -->
+  <path d="M 1925 750 C 1820 720, 1720 710, 1670 730" stroke="#228B22" stroke-width="18" fill="none" />
+  <path d="M 1915 750 C 2020 720, 2120 710, 2170 730" stroke="#228B22" stroke-width="18" fill="none" />
+  
+  <!-- Fourth pair of leaves -->
+  <path d="M 1890 600 C 1820 580, 1760 575, 1730 585" stroke="#228B22" stroke-width="15" fill="none" />
+  <path d="M 1890 600 C 1960 580, 2020 575, 2050 585" stroke="#228B22" stroke-width="15" fill="none" />
+  
+  <!-- Fifth pair of leaves -->
+  <path d="M 1870 450 C 1830 440, 1800 435, 1780 445" stroke="#228B22" stroke-width="12" fill="none" />
+  <path d="M 1870 450 C 1910 440, 1940 435, 1960 445" stroke="#228B22" stroke-width="12" fill="none" />
+  
+  <!-- Bracts under flower -->
+  <path d="M 1800 300 C 1770 290, 1750 280, 1740 270" stroke="#228B22" stroke-width="10" fill="none" />
+  <path d="M 1800 300 C 1770 310, 1750 320, 1740 330" stroke="#228B22" stroke-width="10" fill="none" />
+  <path d="M 1780 260 C 1770 240, 1760 220, 1750 210" stroke="#228B22" stroke-width="8" fill="none" />
+  
+  <path d="M 1800 260 C 1780 240, 1770 220, 1760 200" stroke="#3A5F0B" stroke-width="8" fill="none" />
+  <path d="M 1820 240 C 1810 220, 1805 200, 1800 180" stroke="#3A5F0B" stroke-width="8" fill="none" />
+  
+  <!-- Mirror the bracts -->
+  <path d="M 1800 300 C 1830 290, 1850 280, 1860 270" stroke="#228B22" stroke-width="10" fill="none" />
+  <path d="M 1800 300 C 1830 310, 1850 320, 1860 330" stroke="#228B22" stroke-width="10" fill="none" />
+  <path d="M 1820 260 C 1830 240, 1840 220, 1850 210" stroke="#228B22" stroke-width="8" fill="none" />
+  
+  <path d="M 1800 260 C 1820 240, 1830 220, 1840 200" stroke="#3A5F0B" stroke-width="8" fill="none" />
+  <path d="M 1780 240 C 1790 220, 1795 200, 1800 180" stroke="#3A5F0B" stroke-width="8" fill="none" />
+  
+  <!-- Fully bloomed sunflower -->
+  <!-- Base disk -->
+  <circle cx="1800" cy="230" r="90" fill="#654321" />
+  
+  <!-- Ray petals (outer ring) -->
+  <!-- Row 1 (bottom) -->
+  <path d="M 1800 320 C 1780 380, 1790 440, 1820 480" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1850 315 C 1865 375, 1890 425, 1940 460" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1750 315 C 1735 375, 1710 425, 1660 460" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Row 2 (middle-bottom) -->
+  <path d="M 1890 290 C 1930 340, 1970 370, 2020 390" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1710 290 C 1670 340, 1630 370, 1580 390" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1925 255 C 1975 285, 2025 295, 2075 295" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1675 255 C 1625 285, 1575 295, 1525 295" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Row 3 (middle) -->
+  <path d="M 1940 215 C 2000 215, 2060 215, 2100 200" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1660 215 C 1600 215, 1540 215, 1500 200" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1935 175 C 1990 155, 2045 135, 2090 105" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1665 175 C 1610 155, 1555 135, 1510 105" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Row 4 (middle-top) -->
+  <path d="M 1910 145 C 1950 105, 1980 65, 2000 15" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1690 145 C 1650 105, 1620 65, 1600 15" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1870 125 C 1890 75, 1900 25, 1900 -25" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1730 125 C 1710 75, 1700 25, 1700 -25" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Row 5 (top) -->
+  <path d="M 1825 115 C 1820 55, 1815 -5, 1800 -50" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  <path d="M 1775 115 C 1780 55, 1785 -5, 1800 -50" stroke="#FFD700" stroke-width="25" stroke-linecap="round" fill="none" />
+  
+  <!-- Disk florets detail -->
+  <circle cx="1800" cy="230" r="70" fill="#8B4513" />
+  <circle cx="1800" cy="230" r="60" fill="#654321" />
+  
+  <!-- Disk pattern -->
+  <path d="M 1770 200 C 1775 195, 1780 195, 1785 200" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1790 200 C 1795 195, 1800 195, 1805 200" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1810 200 C 1815 195, 1820 195, 1825 200" stroke="#8B4513" stroke-width="2" fill="none" />
+  
+  <path d="M 1760 220 C 1765 215, 1770 215, 1775 220" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1780 220 C 1785 215, 1790 215, 1795 220" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1800 220 C 1805 215, 1810 215, 1815 220" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1820 220 C 1825 215, 1830 215, 1835 220" stroke="#8B4513" stroke-width="2" fill="none" />
+  
+  <path d="M 1770 240 C 1775 235, 1780 235, 1785 240" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1790 240 C 1795 235, 1800 235, 1805 240" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1810 240 C 1815 235, 1820 235, 1825 240" stroke="#8B4513" stroke-width="2" fill="none" />
+  
+  <path d="M 1760 260 C 1765 255, 1770 255, 1775 260" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1780 260 C 1785 255, 1790 255, 1795 260" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1800 260 C 1805 255, 1810 255, 1815 260" stroke="#8B4513" stroke-width="2" fill="none" />
+  <path d="M 1820 260 C 1825 255, 1830 255, 1835 260" stroke="#8B4513" stroke-width="2" fill="none" />
+  
+  <!-- Soil lines/texture -->
+  <path d="M 1700 1250 C 1750 1280, 1800 1270, 1850 1290" stroke="#6B3C10" stroke-width="5" fill="none" />
+  <path d="M 1860 1340 C 1900 1360, 1950 1350, 2000 1380" stroke="#6B3C10" stroke-width="5" fill="none" />
+  <path d="M 1800 1400 C 1850 1420, 1900 1410, 1950 1430" stroke="#6B3C10" stroke-width="5" fill="none" />
+  <path d="M 1980 1270 C 2030 1290, 2080 1280, 2130 1300" stroke="#6B3C10" stroke-width="5" fill="none" />
+  <path d="M 1750 1350 C 1800 1370, 1850 1360, 1900 1380" stroke="#6B3C10" stroke-width="5" fill="none" />
+  
+  <!-- Small grass blades in background -->
+  <path d="M 800 1200 C 810 1150, 820 1170, 830 1130" stroke="#006400" stroke-width="8" fill="none" />
+  <path d="M 850 1200 C 870 1160, 865 1140, 880 1120" stroke="#006400" stroke-width="8" fill="none" />
+  <path d="M 2800 1200 C 2810 1150, 2820 1170, 2830 1130" stroke="#006400" stroke-width="8" fill="none" />
+  <path d="M 2850 1200 C 2870 1160, 2865 1140, 2880 1120" stroke="#006400" stroke-width="8" fill="none" />
+  <path d="M 3200 1200 C 3220 1150, 3210 1170, 3230 1120" stroke="#006400" stroke-width="8" fill="none" />
+</svg>
