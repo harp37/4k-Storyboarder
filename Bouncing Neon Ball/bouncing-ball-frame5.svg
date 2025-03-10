@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <!-- Ground/Floor line -->
+  <path d="M 240 1800 L 3600 1800" stroke="#ffffff" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ball stretching as it begins to rise (tall and narrow) -->
+  <ellipse cx="2300" cy="1500" rx="170" ry="240" fill="none" stroke="#ff3300" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ball's face/detail (elongated) -->
+  <path d="M 2250 1500 A 35 45 0 1 1 2350 1500" stroke="#ff3300" stroke-width="20" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

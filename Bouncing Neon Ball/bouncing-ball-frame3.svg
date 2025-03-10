@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <!-- Ground/Floor line -->
+  <path d="M 240 1800 L 3600 1800" stroke="#ffffff" stroke-width="15" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ball just before impact (slightly elongated vertically) -->
+  <ellipse cx="1500" cy="1600" rx="190" ry="210" fill="none" stroke="#33ff00" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Ball's face/detail -->
+  <path d="M 1450 1650 A 40 40 0 1 1 1550 1650" stroke="#33ff00" stroke-width="20" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
