@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a4d83;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#051f35;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Lighting rays from surface -->
+    <filter id="lighting" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+      <feComponentTransfer in="blur" result="glow">
+        <feFuncA type="linear" slope="0.6" intercept="0" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  
+  <!-- Ocean background -->
+  <rect width="3840" height="2160" fill="url(#oceanGradient)" />
+  
+  <!-- Light rays from surface -->
+  <g opacity="0.3">
+    <path d="M1200 0 L900 800" stroke="#a0e4ff" stroke-width="50" filter="url(#lighting)" />
+    <path d="M1800 0 L2100 1000" stroke="#a0e4ff" stroke-width="50" filter="url(#lighting)" />
+    <path d="M2400 0 L2200 700" stroke="#a0e4ff" stroke-width="40" filter="url(#lighting)" />
+    <path d="M600 0 L750 500" stroke="#a0e4ff" stroke-width="30" filter="url(#lighting)" />
+    <path d="M3000 0 L2800 900" stroke="#a0e4ff" stroke-width="40" filter="url(#lighting)" />
+  </g>
+  
+  <!-- Distant fish school -->
+  <g transform="translate(2600, 500)">
+    <g opacity="0.7">
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="scale(2)" />
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="translate(30, 20) scale(1.5)" />
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="translate(-20, 40) scale(1.8)" />
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="translate(40, 50) scale(1.3)" />
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="translate(10, 80) scale(1.6)" />
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="translate(-30, 100) scale(1.4)" />
+      <path d="M0,0 C5,-3 10,-5 15,0 C20,5 25,5 30,0 L40,5 L30,0 L40,-5 L30,0 C25,-5 20,-5 15,0 C10,-3 5,-3 0,0 Z" fill="#8ecae6" transform="translate(50, 120) scale(1.7)" />
+    </g>
+  </g>
+  
+  <!-- Seaweed group 1 -->
+  <g transform="translate(300, 1600)">
+    <path d="M0,0 C30,-100 -30,-200 0,-300 C30,-400 -30,-500 0,-600" stroke="#2d6a4f" stroke-width="15" fill="none" stroke-linecap="round" />
+    <path d="M40,0 C70,-100 10,-200 40,-350 C70,-450 10,-500 30,-600" stroke="#2d6a4f" stroke-width="12" fill="none" stroke-linecap="round" />
+    <path d="M-30,0 C0,-100 -60,-200 -30,-300 C0,-400 -60,-500 -30,-580" stroke="#2d6a4f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M80,0 C110,-100 50,-180 80,-250 C110,-320 50,-400 80,-450" stroke="#2d6a4f" stroke-width="8" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Seaweed group 2 -->
+  <g transform="translate(3400, 1700)">
+    <path d="M0,0 C30,-100 -30,-200 0,-300 C30,-400 -30,-500 0,-600" stroke="#2d6a4f" stroke-width="15" fill="none" stroke-linecap="round" />
+    <path d="M40,0 C70,-100 10,-200 40,-350 C70,-450 10,-500 30,-600" stroke="#2d6a4f" stroke-width="12" fill="none" stroke-linecap="round" />
+    <path d="M-30,0 C0,-100 -60,-200 -30,-300 C0,-400 -60,-500 -30,-580" stroke="#2d6a4f" stroke-width="10" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Foreground coral formation -->
+  <g transform="translate(500, 1950)">
+    <path d="M0,0 C100,-150 200,-100 300,-200 C400,-100 500,-150 600,0" stroke="#f72585" stroke-width="25" fill="none" stroke-linecap="round" />
+    <path d="M150,0 C200,-100 250,-50 300,-150 C350,-50 400,-100 450,0" stroke="#7209b7" stroke-width="20" fill="none" stroke-linecap="round" />
+    <path d="M300,0 C350,-80 400,-30 450,-120 C500,-30 550,-80 600,0" stroke="#4cc9f0" stroke-width="15" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Main jellyfish character -->
+  <g transform="translate(1800, 800)">
+    <!-- Jellyfish bell/body -->
+    <path d="M0,0 C50,-80 150,-80 200,0 C200,20 150,40 100,40 C50,40 0,20 0,0 Z" fill="#fc6eb3" stroke="#f72585" stroke-width="5" />
+    
+    <!-- Jellyfish tentacles -->
+    <path d="M20,40 C20,80 30,120 10,160 C30,200 20,240 40,280" stroke="#f72585" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M50,40 C50,80 60,120 40,160 C60,200 40,240 60,280" stroke="#f72585" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M80,40 C80,80 90,120 70,160 C90,200 70,240 90,280" stroke="#f72585" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M110,40 C110,80 120,120 100,160 C120,200 100,240 120,280" stroke="#f72585" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M140,40 C140,80 150,120 130,160 C150,200 130,240 150,280" stroke="#f72585" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M170,40 C170,80 180,120 160,160 C180,200 160,240 180,280" stroke="#f72585" stroke-width="5" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Bubbles rising from coral -->
+  <g>
+    <circle cx="600" cy="1800" r="15" fill="#ffffff" opacity="0.5" />
+    <circle cx="650" cy="1700" r="10" fill="#ffffff" opacity="0.5" />
+    <circle cx="620" cy="1600" r="12" fill="#ffffff" opacity="0.5" />
+    <circle cx="580" cy="1450" r="8" fill="#ffffff" opacity="0.5" />
+    <circle cx="630" cy="1300" r="15" fill="#ffffff" opacity="0.5" />
+    <circle cx="610" cy="1200" r="7" fill="#ffffff" opacity="0.5" />
+    <circle cx="590" cy="1000" r="10" fill="#ffffff" opacity="0.5" />
+  </g>
+  
+  <!-- Small tropical fish -->
+  <g transform="translate(2600, 1200)">
+    <!-- Fish body -->
+    <path d="M0,0 C20,-20 60,-20 80,0 C100,20 120,20 140,0 L160,20 L140,0 L160,-20 L140,0 C120,-20 100,-20 80,0 C60,-20 20,-20 0,0 Z" fill="#ffbe0b" stroke="#fb5607" stroke-width="5" stroke-linejoin="round" />
+    
+    <!-- Fish eye -->
+    <circle cx="30" cy="-5" r="5" fill="#000000" />
+    
+    <!-- Fish stripes -->
+    <path d="M60,0 C60,-15 60,15 60,0" stroke="#fb5607" stroke-width="5" stroke-linecap="round" />
+    <path d="M90,0 C90,-15 90,15 90,0" stroke="#fb5607" stroke-width="5" stroke-linecap="round" />
+  </g>
+  
+  <!-- Starfish on coral -->
+  <g transform="translate(400, 1900)">
+    <path d="M0,0 L30,-80 L60,0 L110,-30 L70,30 L130,60 L60,60 L40,130 L10,60 L-50,70 L0,0" fill="#ff9e00" stroke="#ff7b00" stroke-width="5" stroke-linejoin="round" />
+  </g>
+  
+  <!-- Sand/seafloor -->
+  <path d="M0,2050 C200,2010 400,2070 600,2030 C800,2000 1000,2060 1200,2040 C1400,2020 1600,2050 1800,2070 C2000,2090 2200,2030 2400,2010 C2600,1990 2800,2080 3000,2060 C3200,2040 3400,2020 3600,2050 C3700,2080 3800,2100 3840,2090 L3840,2160 L0,2160 Z" fill="#e9c46a" />
+</svg>
