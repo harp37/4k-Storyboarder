@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3840 2160" width="3840" height="2160">
+  <!-- Background elements -->
+  <rect x="0" y="0" width="3840" height="2160" fill="#000000" />
+  <path d="M 0 2160 L 3840 2160 L 3840 1600 L 0 1600 Z" fill="#6495ED" fill-opacity="0.2" />
+  
+  <!-- Robot with alternate robot dance position -->
+  <!-- Head (mechanical rotation) -->
+  <rect x="1795" y="500" width="250" height="250" rx="30" ry="30" fill="none" stroke="#00ffff" stroke-width="20" transform="rotate(4, 1920, 625)" />
+  <path d="M 1845 580 L 1875 580" stroke="#00ffff" stroke-width="15" stroke-linecap="round" transform="rotate(4, 1920, 625)" />
+  <path d="M 1965 580 L 1995 580" stroke="#00ffff" stroke-width="15" stroke-linecap="round" transform="rotate(4, 1920, 625)" />
+  <path d="M 1895 650 L 1945 650" stroke="#00ffff" stroke-width="15" stroke-linecap="round" transform="rotate(4, 1920, 625)" />
+  
+  <!-- Antenna -->
+  <path d="M 1920 500 L 1920 430 L 1960 390" stroke="#ff00ff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" transform="rotate(4, 1920, 625)" />
+  <circle cx="1980" cy="370" r="15" fill="none" stroke="#ff00ff" stroke-width="15" />
+  
+  <!-- Body -->
+  <rect x="1745" y="780" width="350" height="400" rx="20" ry="20" fill="none" stroke="#ffff00" stroke-width="20" />
+  <circle cx="1820" cy="850" r="25" fill="none" stroke="#ffff00" stroke-width="15" />
+  <circle cx="2020" cy="850" r="25" fill="none" stroke="#ffff00" stroke-width="15" />
+  <rect x="1795" y="950" width="250" height="100" rx="10" ry="10" fill="none" stroke="#ffff00" stroke-width="15" />
+  
+  <!-- Arms - robot dance position 2 (inverted from previous: right arm up with 90° elbow, left arm down with 90° elbow) -->
+  <path d="M 1745 800 L 1545 800 L 1545 1000" stroke="#33ff00" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="1545" cy="1020" r="30" fill="none" stroke="#33ff00" stroke-width="25" />
+  
+  <path d="M 2095 800 L 2295 800 L 2295 600" stroke="#33ff00" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="2295" cy="580" r="30" fill="none" stroke="#33ff00" stroke-width="25" />
+  
+  <!-- Legs with slight bend in opposite direction -->
+  <path d="M 1795 1180 L 1745 1350 L 1695 1500 L 1645 1600" stroke="#ff3300" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="1595" y="1600" width="100" height="50" rx="10" ry="10" fill="none" stroke="#ff3300" stroke-width="20" />
+  
+  <path d="M 2045 1180 L 2095 1350 L 2145 1500 L 2195 1600" stroke="#ff3300" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" />
+  <rect x="2145" y="1600" width="100" height="50" rx="10" ry="10" fill="none" stroke="#ff3300" stroke-width="20" />
+</svg>
